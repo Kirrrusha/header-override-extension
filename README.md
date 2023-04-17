@@ -1,4 +1,4 @@
-# HTTP Request Header Override Chrome Extension
+# HTTP Header Override Extension
 
 Расширение позволяет пользователю управлять заголовками запросов, которые будут внедряться в запросы, сделанные при просмотре веб-сайта в Chrome, где каждое переопределение содержит следующие свойства:
 
@@ -13,12 +13,12 @@
 ### Start Local Server
 
 1. Run `npm install` to install the dependencies.
-1. Run `npm start`
-1. Load your extension on Chrome following:
-   1. Access `chrome://extensions/`
-   1. Check `Developer mode`
-   1. Click on `Load unpacked extension`
-   1. Select the `build` folder.
+2. Run `npm start`
+3. Загрузите расширение в Chrome:
+   3.1. Откройте `chrome://extensions/` в адрессной строке
+   3.2. Включите `Developer mode`
+   3.3. Нажмите на `Load unpacked extension`
+   3.4. Выберите `build` директорию.
 
 ## Packing
 

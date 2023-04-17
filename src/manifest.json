@@ -1,8 +1,7 @@
 {
   "manifest_version": 3,
-  "name": "Request Header/Query Param Override MV3",
-  "version": "0.0.3",
-  "description": "A chrome extension for overriding external http request headers and query parameters",
+  "name": "Request Heade Override",
+  "version": "0.0.1",
   "action": {
     "icon": "main-icon-38.png",
     "default_popup": "popup.html",
